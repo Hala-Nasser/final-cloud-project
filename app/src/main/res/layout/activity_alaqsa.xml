@@ -38,12 +38,19 @@ xmlns:app="http://schemas.android.com/apk/res-auto">
 
     </LinearLayout>
 
-    <VideoView
-        android:id="@+id/videoView"
-        android:layout_width="match_parent"
+<!--    <VideoView-->
+<!--        android:id="@+id/videoView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="200dp"-->
+<!--        android:layout_margin="20dp"-->
+<!--      />-->
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/video_view"
+        tools:ignore="MissingClass"
         android:layout_height="200dp"
-        android:layout_margin="20dp"
-      />
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"/>
 
     <TextView
         android:id="@+id/aqsaContent"
