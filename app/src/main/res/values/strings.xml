@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Cloud Project</string>
+
+    <string-array name="year">
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+    </string-array>
+</resources>
